@@ -16,4 +16,6 @@ public class LibroDTO {
     private String description;
     private Integer publishedYear;
     private Double averageRating;
+    private Integer numPages;
+    private Integer ratingsCount;
 }
