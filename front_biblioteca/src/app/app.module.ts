@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AppRoutesModule } from './app-routes.module';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     CarouselComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
