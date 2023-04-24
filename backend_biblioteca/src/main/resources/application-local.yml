@@ -1,9 +1,9 @@
 amazon:
   aws:
-    accesskey: ''
-    secretkey: ''
+    accesskey: 'pyhwwe'
+    secretkey: '2d3pi5'
   dynamodb:
-    endpoint: ''
+    endpoint: 'http://localhost:8000'
 springdoc:
   api-docs:
     path: /api-docs
