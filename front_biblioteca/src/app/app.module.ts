@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AppRoutesModule } from './app-routes.module';
+import { FormComponent } from './components/form/form.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { AppRoutesModule } from './app-routes.module';
     AppComponent,
     NavbarComponent,
     CardComponent,
-    CarouselComponent
+    CarouselComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
