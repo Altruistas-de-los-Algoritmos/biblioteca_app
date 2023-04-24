@@ -1,0 +1,12 @@
+.nav-container {
+    margin-bottom: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg');
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+
+.nav-container .size-logo{
+    width: 100px;
+    border-radius: 10px;
+}
